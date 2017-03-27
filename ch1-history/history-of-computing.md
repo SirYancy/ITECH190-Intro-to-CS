@@ -23,8 +23,8 @@ Computational reasoning is not by any stretch a uniquely human trait. Many anima
 
 The **Ishango Bone** is a section of a babboon's femur which has curious notches carved into its surface. The prevailing theory is that it was a counting device, though, as you can probably imagine, many an anthropologist have poured countless hours of fruitless speculation into just what the hatchmarks could possibly be counting. Suffice to say, it is a very early example showing that basic anal retentive record-keeping goes back quite a long way in human history.
 
-<img src="images/Antikythera.jpg" width=500px /><br /><br />
-<img src="images/Antikythera2.jpg" width=500px />
+<img src="images/antikythera.jpg" width=500px /><br /><br />
+<img src="images/antikythera2.jpg" width=500px />
 
 The **Antikythera Mechanism** is fascinating for so many reasons. For one, it is a magnificent work of art all on its own. Used to calculate the positions of the stars to aid in navigation, it is not only notable for its capabilities or early date (150 BCE), but for its staggering complexity. For while there are no other examples of the mechanism in existence, it is fairly easy to reason that no such device could have sprung up fully formed. There had to have been a progression of less complex versions and it almost certainly had contemporaries, even if only a few.
 
