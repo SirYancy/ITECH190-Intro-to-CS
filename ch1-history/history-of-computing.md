@@ -42,4 +42,4 @@ The next really significant development in the progress of computing machines ha
 
 ![Alan Turing](images/turing.jpg)
 
-Along comes perhaps the most famous computer scientist of all time [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing).
+Along comes perhaps the most famous computer scientist of all time, [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing). He is perhaps most famous for his work at Bletchley Park cracking the German Enigma Code during World War II. However, he also laid down considerable theoretical groundwork for the field of computer science such that he is often regarded as the father of theoretical computer science.
