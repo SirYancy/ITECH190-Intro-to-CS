@@ -45,3 +45,26 @@ The next really significant development in the progress of computing machines ha
 Along comes perhaps the most famous computer scientist of all time, [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing). He is perhaps most famous for his work at Bletchley Park cracking the German Enigma Code during World War II. However, he also laid down considerable theoretical groundwork for the field of computer science such that he is often regarded as the father of theoretical computer science. His seminal paper in 1946 was  the first detailed design of a stored-program computer. Today, we call his concept a **Turing Machine**. He wrote another influential work on the topic of artificial intelligence and proposed a test (now called the **Turing Test**) to create a standard for a machine to be called "intelligent."
 
 Turing is one of the most revered figures in the field of computer science and his story ends tragically as it was revealed that he was homosexual, was stripped of his military clearance, forced to undergo chemical castration, and eventually committed suicide. His legacy still lives on in modern computer architecture, however. Almost all computer architectures are based at least in part on the Turing Machine model.
+
+## Notable machines and other developments (Ran out of time)
+* [Colossus](https://en.wikipedia.org/wiki/Colossus_computer) - The first fully electronic digital programmable computer
+* [ENIAC](https://en.wikipedia.org/wiki/ENIAC) - First "Turing-complete" digital computer
+  * Weighed 80 tons, used 200 kw of power, had 18,000 vacuum tubes, 1500 relays, and hundreds of thousands of other components.
+* The Transistor - 1955
+* The integrated circuit - 1949 (work began) - working model 1958
+* January 1971 - First Microprocessor
+  * Intel 4004 - Adding machine processor
+* Grace Hopper and the compiler. 1950s. COBOL. Led to a proliferation of programming languages. Grace Hopper was the Mother of Software Development.
+* Five Generations (debatable)
+  1. Mechanical/electromechanical
+  1. Vacuum Tubes
+  2. Transistors and Integrated circuits
+  3. Better ICs
+  4. Experimental/Theoretical
+* Closing Thoughts - Moore's Law
+  * The number of transistors in a dense integrated circuit doubles approximately every two years.
+  * Gordon Moore, founder of Intel. 1965
+  * It has held true so far, though there is self-serving bias.
+  * Used to set long-term planning goals for semiconductor industry
+  * The law is replicated in prices, memory capacity, megapixels in digital cameras, etc.
+  * Not technically a law (conjecture/observation)
