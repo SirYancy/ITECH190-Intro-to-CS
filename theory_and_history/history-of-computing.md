@@ -40,12 +40,32 @@ The **abacus** was an still is one of the most useful ancient arithmetic machine
 
 The next really significant development in the progress of computing machines happened in the years leading up to the 1890 census. A man named Herman Hollerith invented an electromechanical punch card tabulating machine which cut the processing time from 8 years (the 1880 census) to only six in 1890. This is made significant especially considering how much larger the population had grown over those ten years. Hollerith went on to found a company called *The Tabulating Machine Company*, which eventually merged with three other companies to become the *Computing-Tabulating-Recording Company* (CTR). In 1924, CTR was renamed to the much more familiar *International Business Machines Corporation* or IBM.
 
+## Theory and foundations
+
 ![Alan Turing](images/turing.jpg)
 
-**Alan Turing -** Along comes perhaps the most famous computer scientist of all time, [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing). He is perhaps most famous for his work at Bletchley Park cracking the German Enigma Code during World War II. However, he also laid down considerable theoretical groundwork for the field of computer science such that he is often regarded as the father of theoretical computer science. His seminal paper in 1946 was  the first detailed design of a stored-program computer. Today, we call his concept a **Turing Machine**. He wrote another influential work on the topic of artificial intelligence and proposed a test (now called the **Turing Test**) to create a standard for a machine to be called "intelligent."
+**Alan Turing (1912-1954) -** Along comes perhaps the most famous computer scientist of all time, [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing). He is perhaps most famous for his work at Bletchley Park cracking the German Enigma Code during World War II. However, he also laid down considerable theoretical groundwork for the field of computer science such that he is often regarded as the father of theoretical computer science. His seminal paper in 1946 was  the first detailed design of a stored-program computer. Today, we call his concept a **[Turing Machine]**. He wrote another influential work on the topic of artificial intelligence and proposed a test (now called the **[Turing Test]**) to create a standard for a machine to be called "intelligent."
 
-Turing is one of the most revered figures in the field of computer science and his story ends tragically as it was revealed that he was homosexual, was stripped of his military clearance, forced to undergo chemical castration, and eventually committed suicide. His legacy still lives on in modern computer architecture, however. Almost all computer architectures are based at least in part on the Turing Machine model.
+Turing is one of the most revered figures in the field of computer science and his story ends tragically as it was revealed that he was homosexual, persecuted mercilessles by the police and government, and eventually committed suicide. His legacy still lives on in modern computer architecture, however. Almost all computer architectures are based at least in part on the Turing Machine model.
 
+**John Von Neumann (1903-1957) -** A mathematician of massive influence, John Von Neumann was also one of the earliest computer scientists. He laid out an architecture for a computer in a paper in 1945. It described how a stored-program computer would be organized, how its parts and components would talk to each other, and how their hierarchies would be structured. Though considerably evolved, today's computers are heavily influenced by the [Von Neumann Architecture].
+
+## The Vacuum Tube Era
+
+<img src="images/vacuum_tube.jpg" width="400px" style="float:right;">
+
+The first digital computers used vaccuum tubes to represent binary digits (bits). They reasonably fast, but they were large, clunky, and, like a lightbult, they had a tendency to burn out frequently. And yet, as expensive, inefficient, and frustrating as these early machines were, they were _still_ faster than doing it by hand.
+
+The first programmable, electronic, digital computer was **Colossus**. It was used during World War II to help crack ciphers, and though it was not a stored-program computer, it was fully programmable with switches and plugs.
+
+<img src="images/eniac.jpg" width="400px" style="float:left;"/>
+**ENIAC** was the first "Turing-complete" computer. It was a massive machine consisting of 18,000 vacuum tubes, 1500 relays, weight 80 tons, and used 200 kw of power. It was used to calculate artillery firing tables for the United States military, though the war did not last long enough for this purpose to be its main mission. One of its first programs was a study of the feasibility of a thermonuclear weapon. It was able to complete a calculation that took a human 20 hours to complete in 30 seconds. So while it was prone to breaking down, it's astonishing (for its time) speed and calculating power more than made up for it.
+
+These computers evolved and grew more sophisticated and explored many interesting technologies, however, it was all blown away by one very tiny invention
+
+## The Transistor
+<img src="images/transistor.jpg" width="200px" style="float:left;"/>
+A transistor is a tiny semiconductor device which can act as a switch. As they are much smaller, more reliable, and cheaper to produce, they _very quickly_ replaced vacuum tubes as the primary computational element in electronic computers.
 
 
 ## Notable machines and other developments (Ran out of time)
@@ -70,3 +90,8 @@ Turing is one of the most revered figures in the field of computer science and h
   * Used to set long-term planning goals for semiconductor industry
   * The law is replicated in prices, memory capacity, megapixels in digital cameras, etc.
   * Not technically a law (conjecture/observation)
+
+<!-- Links -->
+[Turing Machine]: https://en.wikipedia.org/wiki/Turing_machine
+[Turing Test]: https://en.wikipedia.org/wiki/Turing_test
+[Von Neumann Architecture]: https://en.wikipedia.org/wiki/Von_Neumann_architecture
