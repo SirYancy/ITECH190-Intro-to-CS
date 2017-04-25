@@ -65,10 +65,29 @@ These computers evolved and grew more sophisticated and explored many interestin
 
 ## The Transistor
 <img src="images/transistor.jpg" width="200px" style="float:left;"/>
-A transistor is a tiny semiconductor device which can act as a switch. As they are much smaller, more reliable, and cheaper to produce, they _very quickly_ replaced vacuum tubes as the primary computational element in electronic computers.
+A transistor is a tiny semiconductor device which can act as a switch. As they are much smaller, more reliable, and cheaper to produce, they _very quickly_ replaced vacuum tubes as the primary computational element in electronic computers. It wasn't long before they were getting smaller and smaller until a little-known company called Intel manufactured the first **microprocessor**, the Intel 4004. This first processor was a general-purpose chip designed to be the brains in a digital adding machine. It was a calculator chip. It added, subtracted, multiplied, and divided its way through history as the chip that changed everything.
+
+An **integrated circuit** is a piece of computing hardware that miniturizes and standardizes certain tasks in computing. ICs are a way of putting many, many transistors and other electrical components on a thin piece of silicone which makes the chips faster, more efficient, and cheaper to produce. The IC is what made the microcomputer revolution possible.
+
+## The Internet
+<img src="images/internet_map.png" class="leftimg" />
+
+Computer technology progressed at a fairly steady clip from the mid-sixties on. Corporations found uses for them, as did the government and univsities. By the mid-eighties, there were relatively affordable home computers and some of them were even fairly useful. Unbeknownst to most people in the 80s, a technology had been incubating on university campuses and government buildings for the past 20 years and was about to change everything.
+
+There were many computer networks that took a crack at the problem of transmitting data over long distances. Most of the successful ones settled on some variety of what is called "**packet switching**," which is to say, breaking up large pieces of data and sending them off across the network in pieces to be reassembled at the other end. The most successful of these networks was ARPANET which went live in 1969, sending its first message from UCLA to the Stanford Research Institute on 29 October, 1969. For 20 years, the ARPANET would grow to connect many universities, corporations, and government organizations together. Massive funding provided by the United States Government helped to push the project forward very quickly. And then along came 1989
+
+The ARPANET and the Internet that would grow out of it use the **TCP/IP** protocol, a unified language and set of rules that all computers connected to the internet must adhere to. In fact, it's not just one or even two protocols, it's what we call a _stack_ of protocols. Shortened to the two main ones, the **Transmission Control Protocol** which is responsible for breaking information up into discrete chunks at one end of a connection and then reassembling them at the other end. And the **Internet Protocol** which is responsible for addressing making sure packets get where they are going.
+
+## The World Wide Web
+In 1989, an English scientist named **Tim Berners-Lee** invented a set of technologies for making the internet more accessible and comprehensible. He invented what is now called the **World Wide Web**, a network of interconnected, "hyperlinked" documents and other resources which can be access using a piece of software called a _web browser_. Berners-Lee invented four main technologies:
+
+* The **HTTP protocol**, which is the set of rules that govern the web. It determines how web pages are served up, and how web browsers will interact with the TCP/IP protocols of the web itself.
+* **HyperText Markup language** or HTML is a markup language which allows for easy formatting of web documents (web pages). It has gone through many revisions over the years, but Berners-Lee's original HTML is still quite easily recognizable by any modern web developer.
+* **Web Server** software was needed to tell a computer how to "serve" a web page to anyone who was trying to access it.
+* **Web Browser** software enables a user to "browse" and search the web for information, parsing, interpreting, and formatting the content that it receives so that it's readable by you or me.
 
 
-## Notable machines and other developments (Ran out of time)
+## Notable machines and other developments
 * [Colossus](https://en.wikipedia.org/wiki/Colossus_computer) - The first fully electronic digital programmable computer
 * [ENIAC](https://en.wikipedia.org/wiki/ENIAC) - First "Turing-complete" digital computer
   * Weighed 80 tons, used 200 kw of power, had 18,000 vacuum tubes, 1500 relays, and hundreds of thousands of other components.
