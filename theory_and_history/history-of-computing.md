@@ -69,6 +69,9 @@ A transistor is a tiny semiconductor device which can act as a switch. As they a
 
 An **integrated circuit** is a piece of computing hardware that miniturizes and standardizes certain tasks in computing. ICs are a way of putting many, many transistors and other electrical components on a thin piece of silicone which makes the chips faster, more efficient, and cheaper to produce. The IC is what made the microcomputer revolution possible.
 
+## Grace Hopper and the compiler
+//TODO
+
 ## The Internet
 <img src="images/internet_map.png" class="leftimg" />
 
@@ -86,6 +89,15 @@ In 1989, an English scientist named **Tim Berners-Lee** invented a set of techno
 * **Web Server** software was needed to tell a computer how to "serve" a web page to anyone who was trying to access it.
 * **Web Browser** software enables a user to "browse" and search the web for information, parsing, interpreting, and formatting the content that it receives so that it's readable by you or me.
 
+## The Smartphone revolution
+There were many attempts as, as early as the 90s, to build a hand-held productivity device and while some of them were pretty neat in their time, none of them was so immensely useful that it would ever become ubiquitous. Until the smartphone. It wasn't [the first], but in 2007 a device called the iPhone hit shelves and changed...everything.
+
+Let me just get real with you here, reader. This is written as someone who does not and never will own an iPhone. The effect of the iPhone on modern society has been so profound it will probably take us decades to even come to terms with its existence. Our relationship with _information_ has changed. Our relationships with _each other_ have changed. To say that the iPhone has been a [disruptive technology] would be like saying the atom bomb was a firecracker.
+
+Of course, this is not to overstate the importance of the iPhone. If it hadn't been the iPhone, it would have been the HTC Dream or the Samsung Galaxy or some other [Android phone]. The technology was already there and the time was right for it. Apple was lucky and very, very good at marketing.
+
+This is not to _understate_ the importance the iPhone either. It's the first successful iPhone with the exception of the Blackberry, thought that seemed to be isolated to business people. And just stop and think about the profound ramifications of having a device in the palm of your hand which is essentially a direct link to the sum-total of (effectively) all of human knowledge. Every language. Every book. Every piece of music. Every movie or TV show. All of it can be access with a smartphone.
+
 
 ## Notable machines and other developments
 * [Colossus](https://en.wikipedia.org/wiki/Colossus_computer) - The first fully electronic digital programmable computer
@@ -96,12 +108,15 @@ In 1989, an English scientist named **Tim Berners-Lee** invented a set of techno
 * January 1971 - First Microprocessor
   * Intel 4004 - Adding machine processor
 * Grace Hopper and the compiler. 1950s. COBOL. Led to a proliferation of programming languages. Grace Hopper was the Mother of Software Development.
-* Five Generations (debatable)
+* ARPANET - 1969
+* Tim Berners-Lee, the Internet, and The World Wide Web - 1989
+* The Smartphone revolution - 2007-present
+* Five Generations
   1. Mechanical/electromechanical
   1. Vacuum Tubes
   2. Transistors and Integrated circuits
   3. Better ICs
-  4. Experimental/Theoretical
+  4. Experimental/Theoretical (Quantum computers, DNA computers, etc)
 * Closing Thoughts - Moore's Law
   * The number of transistors in a dense integrated circuit doubles approximately every two years.
   * Gordon Moore, founder of Intel. 1965
@@ -114,3 +129,6 @@ In 1989, an English scientist named **Tim Berners-Lee** invented a set of techno
 [Turing Machine]: https://en.wikipedia.org/wiki/Turing_machine
 [Turing Test]: https://en.wikipedia.org/wiki/Turing_test
 [Von Neumann Architecture]: https://en.wikipedia.org/wiki/Von_Neumann_architecture
+[the first]: https://en.wikipedia.org/wiki/IBM_Simon
+[disruptive technology]: https://en.wikipedia.org/wiki/Disruptive_innovation
+[Android phone]: https://en.wikipedia.org/wiki/Android_(operating_system)
