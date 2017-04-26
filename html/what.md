@@ -16,8 +16,21 @@ So what's a "markup language"? If you happen to be looking at this page on the w
 So HTML is a markup language to facilitate the generation of hypertext. It is the foundation of most of our interactive web-based media today. We are currently in HTML's 5th generation, generally referred to as HTML5. It was originally published by the [World Wide Web Consortium](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium) in 2014 and has been the current version of HTMl since then. As far as this text is concerned, whenever we talk about HTML, we are specifically referring to HTML5.
 
 ## The HTML Tag
-The basic unit of HTML syntax is the tag.
+
+<div class="alert alert-info"><strong>A Word on Text Editors</strong>: When the text refers to text editors, it is vital to recognize that what a programmer refers to as an <strong>editor</strong> is very different from a <strong>Word Processor</strong>. Do <strong>not</strong> use Microsoft Word!! Feel free to download any text editor you like for local editing. There are as many text editors as there are programmers, it seems. But some nice modern ones to check out include <a href="https://notepad-plus-plus.org/">Notepad++</a>, <a href="https://www.sublimetext.com/">Sublime Text</a>, <a href="https://atom.io/">Atom</a>, and <a href="https://www.geany.org/">Geany</a>. If you are feeling adventurous, you can try some advanced text editors like <a href="http://www.vim.org/">Vim</a> or <a href="https://www.gnu.org/software/emacs/">Emacs</a>, but they have very steap learning curves. Such is the price of power and extensibility.<br> In case you're curious, this text was written largely on Atom in Vim mode.</div>
+
+The basic unit of HTML syntax is the tag. Tags are meant to be _semantic_. What this means is, the tags you use should give some information about the meaning you are assigning to the text inside. A `<p>` tag indicates a paragraph as a unit of meaning. An `<h1>` tag indicates a high-level section heading. Different browsers treat tags slightly differently, but they do _mostly_ agree how to handle this tag or that. And whatever they don't can be picked up in **CSS** (more on that later).
+
+Most HTML tags require a second tag to close it. The closing tag is always identical to the opening tag, only it comes with a forward slash. So a `<p>` tag and its closing `</p>` tag indicate that everything btween them is to be treated as a paragraph. Likewise, to create a heading in your html file, you will surround some text with `<h1>` and `</h1>`
+
+To see this in action, create a text file using the simplest text editor you have
 
 ```html
-<p>This is a pargraph</p>
+<h1>Hello World</h1>
+<p>Welcome to my web page</p>
+<p>Stay as long as you like</p>
 ```
+![1]
+
+<!-- Images -->
+[1]: images/1.png
