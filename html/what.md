@@ -19,5 +19,5 @@ So HTML is a markup language to facilitate the generation of hypertext. It is th
 The basic unit of HTML syntax is the tag.
 
 ```html
-<p></p>
+<p>This is a pargraph</p>
 ```
