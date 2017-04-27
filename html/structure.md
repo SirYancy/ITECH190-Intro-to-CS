@@ -32,20 +32,20 @@ That's it. This sets HTML5 apart from older HTML4 or earlier declarations. It's 
 
 So this is a nice improvement.
 
-## The <html> Tag
+## The `<html>` Tag
 
 Directly after the DOCTYPE declaration is the `<html>` tag. This tag informs the browser that everything after it is html code. Everything in the entire web page (other than the DOCTYPE declaration) should be inside the `<html>` tags. Notice the `lang="en"` bit. This is called a tag **attribute**. Attributes are ways of augmenting the functionality of a tag. In this case, the attribute is informing the web browser that this page is written in English. This helps search engines like Google to more accurately index your website.
 
 Often things like this seem like they have no effect. But they do. On the one hand, it's just good practice. But, while they will not necessarily change how your web page renders, they _do_ affect how well it plays with the rest of the Web.
 
-## The <head> Tag
+## The `<head>` Tag
 
 After the DOCTYPE declaration, a web page generally has a `<head>` element which is typically where you'll include meta data (character encoding, text language, authorship information, etc) as well as link up CSS stylesheets and scripts. In this case, we have the following two items:
 
 * a `<meta>` tag which informs the browser that the web page is using the [UFT-8] character encoding standard.
 * a `<title>` tag which defines the title in the browser tool bar, gives the page a name when you bookmark it, and defines its title for search-engine results. It is required in all web pages.<br>![5]
 
-## The <body> Tag
+## The `<body>` Tag
 
 The `<body>` tag semantically defines the portion of your web page that will render in the web browser. It's where you put all of your _content_.
 
