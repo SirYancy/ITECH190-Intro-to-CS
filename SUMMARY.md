@@ -6,4 +6,5 @@
   * [1 - What is HTML?](html/what.md)
   * [2 - HTML Tags](html/tags.md)
   * [3 - Anatomy of a Web Page](html/structure.md)
+  * [4 - Lists](html/lists.md)
 * [JavaScript](javascript/introduction.md)
