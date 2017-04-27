@@ -32,6 +32,8 @@ Stay as long as you like
 
 The paragraphs went away. In fact your web browser will strip away any white space that is not explicitly added. Extra spaces and new lines will be stripped out of your web page. The `<p>` tag allows you to semantically define your paragraphs instead of having to pay attention to exactly where your new lines are and your paragraphs end.
 
+It's also worth noting here that HTML5 tags are not case sensitive. However, as a matter of code style, they are almost always lower-case. Using upper-case tags is archaic and to be frowned upon in this civilized era.
+
 ## Headings
 
 Heading tags come in a variety of flavors. Those flavors are numbered according to their priority and web browsers will interpret them appropriately:
