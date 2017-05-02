@@ -84,6 +84,14 @@ These are all fairly straightforward. Try some of these tags out in a simple htm
 
 To see some more examples, go to the [demos] page. On any of the linked demo pages just hit `ctrl-u` to open a new tab with the source code for the page. Glance through them and you will see some things that we haven't covered yet, but we will in next few pages.
 
+# What's Semantics, Exactly?
+
+A few words on the term "**semantics**" is in order. HTML was designed, back in the day, as a way of giving very plain text some sense of style. This enhances readability, makes it look nice on the page, and gives the page structure. These days, there is a very strong emphasis on using so-called "semantic" HTML which emaphasizes the _meaning_ of information on the webpages as opposed to just defining what it should look like
+
+For example, these days, it's preferable to use the `<em>` instead of the older `<i>` tag to create italic text. Rather than just saying it's italic, we're using the tag to denote an _emphasis_, and the use of the `<strong` tag instead of `<b>` for bold, strong text.
+
+Semantic markup has been included in HTML since the very beginning, but since HTML4, and now much more in HTML5, this is only more pronounced and indeed, this is the general methodology that this text encourages as well.
+
 <!-- Links -->
 [demos]: http://itech190.erickuha.com/
 

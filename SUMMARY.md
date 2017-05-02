@@ -1,10 +1,12 @@
 # Summary
 
 * [Introduction](README.md)
-* [History of Computing](/theory_and_history/history-of-computing.md)
+* [Theory, History, Context](theory_and_history/introduction.md)
+  * [History of Computing](/theory_and_history/history-of-computing.md)
 * [HTML](html/introduction.md)
-  * [1 - What is HTML?](html/what.md)
-  * [2 - HTML Tags](html/tags.md)
-  * [3 - Anatomy of a Web Page](html/structure.md)
-  * [4 - Lists](html/lists.md)
+  * [What is HTML?](html/what.md)
+  * [HTML Tags](html/tags.md)
+  * [Anatomy of a Web Page](html/structure.md)
+  * [Lists](html/lists.md)
+  * [Hyperlinks](html/links.md)
 * [JavaScript](javascript/introduction.md)

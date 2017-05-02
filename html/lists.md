@@ -55,7 +55,7 @@ You can nest lists inside of each other to create sub-lists by simply defining a
 Pay close attention to how the lists are defined and where they are closed. This renders like this:
 ![8]
 
-Observe how the list bullets are different in the nested list.
+Observe how the list bullets are different in the nested list. Lists are one of your most important tools in web design. They are used practically everywhere and give you a nice, uncomplicated way to semantically define collections of ideas, objects, and ideas.
 
 <!-- images -->
 [7]: images/7.png

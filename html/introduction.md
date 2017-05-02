@@ -16,6 +16,7 @@ We'll start with HTML.
 * [What is HTML](what.md)
 * [HTML Tags Basics](tags.md)
 * [Structure of a Website](structure.md)
+* [Hyperlinks](links.md)
 * [Lists](lists.md)
 * [Images](images.md)
 * [Tables](tables.md)
