@@ -14,7 +14,7 @@ Here is a link to <a href="http://www.wikipedia.org">Wikipedia</a>
 
 This renders to this: <br /> ![9]
 
-Here's how it works. The anchor tag pair `<a></a>` surround the display text. This _semantically_ designates the word "Wikpedia" as a link. But the link won't work without some way of creating the link. Thus, the opening tag has an attribute called `href`. The `href` attribute takes the **URL** for the Web page or other resource that you are linking to.
+Here's how it works. The anchor tag pair `<a></a>` surround the display text. This _semantically_ designates the word "Wikipedia" as a link. But the link won't work without some way of creating the link. Thus, the opening tag has an attribute called `href`. It stands for "_hypertext reference_." The `href` attribute takes the **URL** for the Web page or other resource that you are linking to. **Do not forget the quotation marks.**
 
 ## Relative vs Absolute Links
 
@@ -31,7 +31,7 @@ Web pages, behind the scenes, have directory structures just like your computer'
 │   │   ├── blue.html
 ```
 
-In the `index.html` file, if we wanted to link to, Wikipedia, we would use the full URL to link to it, `<a href="http://www.wikipedia.org">Wikipedia</a>`, as we did above. However, let's say we want to link to red.html in the colors folder. Here we don't need the entire URL; we can use a **relative** path to the resource. The path would simply be `colors/red.html`. Thus, the full syntax looks like:
+In the `index.html` file, if we wanted to link to, Wikipedia, we would use the full URL syntax as we did above. This is called an **absolute** path because it is the page's absolute address on the entire internet. It is a wholly unique identifier for that resource. However, let's say we want to link to `red.html` in the `colors` folder. Here we don't need the entire URL; we can use a **relative** path to the resource. The path would simply be `colors/red.html`. Thus, the full syntax looks like:
 
 ```html
 Here is a link to the <a href="colors/red.html">Red</a> page

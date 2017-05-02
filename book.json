@@ -1,0 +1,4 @@
+{
+    "plugins": ["collapsible-menu"],
+    "plugins": ["mathjax"],
+}
