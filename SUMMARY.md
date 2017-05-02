@@ -9,4 +9,5 @@
   * [Anatomy of a Web Page](html/structure.md)
   * [Lists](html/lists.md)
   * [Hyperlinks](html/links.md)
+  * [Images](html/images.md)
 * [JavaScript](javascript/introduction.md)
