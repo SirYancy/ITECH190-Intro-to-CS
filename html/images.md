@@ -31,7 +31,7 @@ There are actually many attributes that can be applied to an image file. Let's l
 |:----|:----|:----|
 |src | _URL_ | Sets the location for the image resource |
 |alt | _Some text_ | sets the alternative text for the image (in case it doesn't load)|
-|height | _# of pixels_ | Sets the height of the image |
+|height | _# of pixels, percentage_ | Sets the height of the image |
 |width | _# of pixels, percentage_ | Sets the width of the image |
 
 These four attributes are generally regarded as essential. Most standards require that all four be included in any `<img>` tag. So looking at all of them, the **src** attribute is obvious. Without it, you have no image. The **alt** text is also important because it is what displays if the image fails to load (or is taking its time loading) to at least convey _some_ meaning to the reader as the image loads. The **height** and **width** attributes are _technically_ optional, though as a matter of style, it is highly advised that you use them. And, generally, in a static web page, you should set them to their native sizes. This image happens to be 300 pixels by 284 pixels. By these rules, the code snippet for this image _should_ read:
@@ -40,11 +40,11 @@ These four attributes are generally regarded as essential. Most standards requir
 <img src="profile_pic.jpg" width="300" height="284" alt="Profile Picture" />
 ```
 
-Or at least, this is how you'd do it for a static page with static images. In the days of mobile operating systems and a million different screen sizes and aspect ratios, the need for pages that can resize their own content, so-called **responsive** Web pages, is becoming more important to convincing people to read it. If you've ever looked at a Web page that just doesn't work right on a mobile screen, you have seen a page that does not adhere to **responsive** design principles.
+Or at least, this is how you'd do it for a static page with static images. In the days of mobile operating systems and a million different screen sizes and aspect ratios, the need for pages that can resize their own content, so-called **responsive** Web pages, is becoming more important to convincing people to read it. If you've ever looked at a Web page that just doesn't work right on a mobile screen, you have seen a page that does not adhere to **responsive** design principles. And you've probably been annoyed about it.
 
-For our part, our main effort at responsiveness in our web pages will be to replace hard-coded pixel sizes into our image tags. Instead, you can use a percentage. The 
+One crude but somewhat effective way to implement very basic responsiveness into images in our Web pages is to use a percentage as the value in a **width** or **height** attribute. However, if you do this, you only want to use one of the dimension attributes. If you set `width="25%"`, leave **height** out completely and vice versa. If you don't, you'll get some very strange behavior. It's generally easier to use a **width** attribute over a **height** attribute.
 
-
+Go ahead and try this. To test it, change the width and height of your browser window to see the image change size. Very groovy.
 
 <!-- images -->
 [10]: images/10.png
