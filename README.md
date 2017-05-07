@@ -29,3 +29,23 @@ function magicFunc(){
 ```
 
 ---
+
+
+quiz test
+---
+Quiz:
+
+Question1:
+- [x] correct
+- [ ] incorrect
+
+> Help Message
+
+Question 2:
+- [ ] incorrect
+- [x] correct
+- [x] correct
+
+> Help Message 2
+
+---
