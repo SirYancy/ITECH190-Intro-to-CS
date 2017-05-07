@@ -6,29 +6,22 @@
 This is a companion text for ITECH 190 at Leech Lake Tribal College. If you are not my student, you are free to read on. Note, however, that this text is a work in progress.
 
 
----
+{% exercise %}
+Define a variable `x` equal to 10
 
-Define a variable `x` equal to 10.
-
-```js
+{% initial %}
 var x =
-```
 
-```js
+{% solution %}
 var x = 10;
-```
 
-```js
+{% validation %}
 assert(x == 10);
-```
 
-```js
-function magicFunc(){
-    return 3;
-}
-```
+{% context %}
+var exposed = 3;
 
----
+{% endexercise %}
 
 
 quiz test
