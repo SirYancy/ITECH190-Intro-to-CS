@@ -2,5 +2,7 @@
     "plugins":["toggle-chapters",
                "mathjax",
                "image-captions",
-               "quiz"]
+               "quiz",
+               "exercies",
+               "quizzes"]
 }
