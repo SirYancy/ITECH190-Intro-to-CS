@@ -10,7 +10,7 @@ That said, in addition to this, with the development of a massive array of tools
 
 The primary goal of this course is to learn fundamental concepts in computer science. However, in that process, we will learn about some of the tools and utilities that real developers use to build real websites. Tools that you can use now, today, to build websites, add interactivity, and style them up.
 
-We'll start with HTML.
+Let's look at HTML.
 
 ## Chapter Overview
 * [What is HTML](what.md)
