@@ -10,6 +10,6 @@
   * [Lists](html/lists.md)
   * [Hyperlinks](html/links.md)
   * [Images](html/images.md)
-  * [Tables](html/tables/md)
+  * [Tables](html/tables.md)
   * [Styles](html/sytle.md)
 * [JavaScript](javascript/introduction.md)
