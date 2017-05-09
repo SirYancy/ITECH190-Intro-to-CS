@@ -11,5 +11,5 @@
   * [Hyperlinks](html/links.md)
   * [Images](html/images.md)
   * [Tables](html/tables.md)
-  * [Styles](html/sytle.md)
+  * [Styles](html/style.md)
 * [JavaScript](javascript/introduction.md)
