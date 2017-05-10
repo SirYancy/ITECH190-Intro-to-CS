@@ -87,7 +87,27 @@ In the `<style>` tags we are selecting the `body` element and changing its *back
 
 Last, let's look at external stylesheets. An external stylesheet is defined in its own file and then linked to the web page so that the browser rendering the page knows where to find it. You define the styles exactly as you would in an embedded stylesheet, only it's not in a `style` tag. 
 
+For example, let's say we have the following stylesheet defined:
 
+```css
+h1 {
+    text-align: center
+   }
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 4px;
+}
+
+th {
+    text-align: left;
+    background-color: rgba(128, 0, 0, 50);
+    color: white;
+}
+```
+
+Notice a couple of things. The selectors can be chained together by separating them with a comma. Observe that we are adding borders and padding to `table`, `th`, and `td`. 
 
 <!-- Images -->
 [12]: images/12.png
