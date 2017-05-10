@@ -6,39 +6,3 @@
 This is a companion text for ITECH 190 at Leech Lake Tribal College. If you are not my student, you are free to read on. Note, however, that this text is a work in progress.
 
 
-{% exercise %}
-Define a variable `x` equal to 10
-
-{% initial %}
-var x =
-
-{% solution %}
-var x = 10;
-
-{% validation %}
-assert(x == 10);
-
-{% context %}
-var exposed = 3;
-
-{% endexercise %}
-
-
-quiz test
----
-Quiz:
-
-Question1:
-- [x] correct
-- [ ] incorrect
-
-> Help Message
-
-Question 2:
-- [ ] incorrect
-- [x] correct
-- [x] correct
-
-> Help Message 2
-
----

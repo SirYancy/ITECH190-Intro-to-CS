@@ -26,7 +26,70 @@ Likewise, you can change the text color as well by adding the *color* style:
 ```
 ![13]
 
+These are called *inline* styles. You can also define styles in a `<style>` tag in the `<head>`, or even in their own stylesheet file. Let's look at both of these here.
+
+# Embedded Stylesheets
+
+One way to make a quick stylesheet for a single web page is to define an embedded stylesheet. It's defined in the `<head>` element of your page. Now, there's a few bits of odd syntax here, but it's not too difficult when you get used to it.
+
+The `<style>` tag gets an attribute `type="text/css"` this is called a mime type and you don't really have to remember that except that it needs to be there. It tells the web browser what kind of stylesheet you're defining (as if there were another kind).
+
+Inside the `<style>` tags, we define styles using the following syntax:
+
+`*selector* { *property*: *value*; }`
+
+The selector is a tag element in your web page like `body` or `p` or `h1`. And the properties are much like like inline styles. You can change the `background-color` by using a value like `blue` or `#3a7ca5` (a hex color value; more on this later). Finally, after you define a style, you must end the line with a semicolon (;). 
+
+There are many, many different styles that can be manipulated like this and CSS has many different ways that you can select exactly the elements you want. But for the purposes of this class, we'll just mess with a few. Let's look at an example:
+
+```html
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Tables</title>
+
+    <style type="text/css">
+
+    body {
+        background-color: lightblue;
+    }
+    
+    h1 {
+        color: navy;
+        margin-left: 20px;
+    }
+
+    </style>
+
+</head>
+
+<body>
+
+<h1>
+    Koalas  
+</h1>
+<img src="koala.png" />
+<p>
+   Koalas are the most dangerous animals in the world. 
+</p>
+
+
+</body>
+</html>
+```
+![14]
+
+In the `<style>` tags we are selecting the `body` element and changing its *background-color* to *lightblue*. Then, we are selecting the `h1` tag and changing its text color to *navy* and giving it a 20 pixel margin on the left. It is important to note that when you select a tag in this way, it applies it to _all_ instances of that tag in the entire document.
+
+## External Stylesheets
+
+Last, let's look at external stylesheets. An external stylesheet is defined in its own file and then linked to the web page so that the browser rendering the page knows where to find it. You define the styles exactly as you would in an embedded stylesheet, only it's not in a `style` tag. 
+
+
 
 <!-- Images -->
 [12]: images/12.png
 [13]: images/13.png
+[14]: images/14.png
