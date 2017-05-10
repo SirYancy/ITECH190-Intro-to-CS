@@ -57,4 +57,4 @@ There used to be a table border attribute that you could apply, but it is no lon
 If you find yourself doing any web development at all, being able to format text and data in a tabular format will become critical. Remember, tables are not just tabular data, though. They are often just a great way to format page elements.
 
 <!-- Images -->
-[11]: /images/11.png
+[11]: images/11.png
