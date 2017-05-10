@@ -87,8 +87,9 @@ In the `<style>` tags we are selecting the `body` element and changing its *back
 
 Last, let's look at external stylesheets. An external stylesheet is defined in its own file and then linked to the web page so that the browser rendering the page knows where to find it. You define the styles exactly as you would in an embedded stylesheet, only it's not in a `style` tag. 
 
-For example, let's say we have the following stylesheet defined:
+For example, let's say we have the following stylesheet defined. *Note:* You can find this example [in the demo pages](http://itech190.erickuha.com/html_basics/9_table.html). Just hit `Ctrl-u` to see the page source:
 
+### CSS
 ```css
 h1 {
     text-align: center
@@ -102,14 +103,63 @@ table, th, td {
 
 th {
     text-align: left;
-    background-color: rgba(128, 0, 0, 50);
+    background-color: #800000;
     color: white;
 }
 ```
 
-Notice a couple of things. The selectors can be chained together by separating them with a comma. Observe that we are adding borders and padding to `table`, `th`, and `td`. 
+### HTML
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tables</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+    <h1 style="color:DarkGreen;">
+        Here is a table.
+    </h1>
+    <table style="border:none;">
+        <tr>
+            <td style="border:none;"><img src="STEM-logo.jpg" width="100px" /></td>
+            <td style="border:none;"><h1>Intro to Computer Science</h1></td>
+        </tr>
+    </table>
+
+    <table style="width:500px">
+        <tr>    <th>Name:</th>      <td>Eric</td>               </tr>
+        <tr>    <th>Age:</th>       <td>36</td>                 </tr>
+        <tr>    <th>Hometown:</th>  <td>Bemidji</td>            </tr>
+        <tr>    <th>Major:</th>     <td>Computer Science</td>   </tr>
+    </table>
+
+</body>
+</html>
+```
+
+Notice a couple of things. The selectors can be chained together by separating them with a comma. Observe that we are adding borders and padding to `table`, `th`, and `td`. There are a few new style attributes being used here, but you can probably work out what they do from context. For example, this `border` style is pretty standard, a 1px thick border that is solid black. The `border-collapse` style is used to change the way the border behaves. Try this example and delete that line and see how behaves.
+
+And now, looking at the html code, observe how the stylesheet is reference with the link tag:
+
+`<link rel="stylesheet" href="style.css" type="text/css" />`
+
+The *rel* attribute defines the relationship between the web page and the stylesheet. In this case, it tells the browser that the linked page is a stylesheet. The *href* attribute should be familiar. Note that it is difference from a *src* attribute, which you would use in an `<img>` tag, in that it doesn't "replace" the element. It only links to it. The *href* attribute is our hypertext reference, of course. Last, the *type* attribute informs the browser of the linked document's "mime-type". For now, just feel free to copy-paste this line and only change the *href* attribute. I'll be honest, even I looked up the exact syntax while writing this text.
+
+Also, notice in the first table, the *style* attribute applies the "border:none;" style to the `<table>` and the `<td>` tags. This overrides the style definitions in the external stylesheet so that the heading table does not have any borders between cells. In order, stylesheets have the following priorities: `inline > embedded > external`. So as you define styles and stylesheets be aware of the different ways in which you can apply them to get exactly the result that you want. If you have any question about getting a page to display how you like, inform the instructor.
+
+There is really a _lot_ more to know about CSS and how to style web pages, however, this little bit here will help you get a start at add a little flair to the labs that are required in this course. If you are looking for more, here are some useful links:
+
+* [W3 Schools CSS Tutorial](https://www.w3schools.com/css/)
+* [W3 Schools Intro to CSS Course](https://www.w3schools.com/css/css_intro.asp)
+* [A CSS Tutorial Site](http://www.csstutorial.net/css-intro/introductioncss-part1.php)
+* [TutorialsPoint's very nice CSS Series](https://www.tutorialspoint.com/css/)
 
 <!-- Images -->
 [12]: images/12.png
 [13]: images/13.png
 [14]: images/14.png
+[15]: images/15.png
