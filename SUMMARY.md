@@ -13,3 +13,4 @@
   * [Tables](html/tables.md)
   * [Styles](html/style.md)
 * [JavaScript](javascript/introduction.md)
+  * [What is JavaScript](javascript/javascript.md)
