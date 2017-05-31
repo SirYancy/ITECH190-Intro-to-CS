@@ -16,4 +16,55 @@ High-level languages are written in human-friendly syntax. But what's good for a
 
 Dynamic languages, on the other hand, are not compiled until they are run. They execute many of their behaviors at run-time. That is, it's just plain old code until the program is loaded into its **interpreter**. An interpreter is a piece of software that executes the code of a dynamic language.
 
+## Why JavaScript?
 
+So you might be asking, why should I learn JavaScript? There are two very good reasons for a new programmer to learn JavaScript.
+
+**JavaScript is easy.** It requires no setup. All you need to run a JS program is a text editor and a web browser. It's simple to get into and the syntax is very straightforward. You can practically dive right in without downloading anything, installing an development environment, or getting to know weird new software.
+
+**You're going to learn it anyway.** In all likelihood, if you're going to be a software developer, you will almost certainly need to develop at least some basic web development skill. That means, you need to know HTML/CSS, but it also means that you need to learn a little JavaScript.
+
+## Text Editors and Web Browsers
+
+You need two pieces of software to write JS programs. You need a text editor and a web browser. You probably already have a simple notepad program on your computer. It is important to note that a text editor is *not* a word processor. You absolutely should not use Microsoft Word. As stated in the HTML chapter, a few easy-to-use options are available completely free.
+
+* [Sublime Text](https://www.sublimetext.com/) - Premium, but with an unlimited free trial. Extensible.
+* [Notepad++](https://notepad-plus-plus.org/) - Windows only. very easy to use. extensible.
+* [Atom](https://atom.io/) - All platforms. Totally free. Highly customizeable. Easy to use. Slightly buggy (it's pretty new on the scene)
+* [Vim](http://www.vim.org/) - All platforms. Steep learning curve. Incredibly powerful. Almost certainly requires a few days of dedication to get the hang of it.
+
+## Write Your First Program
+
+Open up your favorite text editor. Create a file called `hello.html`. Type out the following code. Pay close attention to the syntax.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    alert("Hello World!");
+</script>
+</body>
+</html>
+```
+Navigate to the file in your file manager and double-click it. It should open in your default web browser and you should see something like this:
+
+![1]
+
+If you don't get the alert pop-up it could be one of two things. Either you made a mistake and should go back and check your syntax, or your browser has JavaScript disabled. To fix the latter, do a quick web search for it and your web browser and you should find a quick tutorial. This is, however, highly unlikely as the vast majority of web sites make heavy use of JS and if you had it disabled, you would almost certainly be aware of it.
+
+Now, let's break down what we did. First, notice the `<script>` tags. Anything you put between these two tags will be interpreted by the web browser as JS and sent through the browser's built-in JS interpreter. The interpreter will take your JS code, in this case the single line `alert("Hello World!");`, parse it, and execute it. There are a few things you should pay close attention to in this single line of code. First, is the `alert()` keyword. This is a function built into JS that pops up an alert dialog box in the user's web browser with the message inside the parenthesis. The message is typically inside quotation marks. Lastly, the line of code must be terminated by a semicolon. In fact, all lines of JS code must terminate in a semicolon (more on this in the next session).
+
+To close this section, try a few different variations on our "Hello World!" program. To try these examples, make the edit in the file, save it, and then refresh your web browser to test it.
+
+* `alert("Hello" + " World!");`
+* `alert(1 + 2 + 3 + 4 + 5);`
+* `alert("1" + "2" + "3" + "4" + "5");`
+* `confirm("Do you wish to continue?");`
+
+<!-- images -->
+[1]: images/1.png
