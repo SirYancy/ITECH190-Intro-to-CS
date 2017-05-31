@@ -9,3 +9,11 @@ As you grow as a programmer, you may want to look back over this text (it will r
 
 Remember to refer to the [demo page](http://itech190.erickuha.com) for some examples.
 
+## Chapter Overview
+
+* [What is JavaScript](javascript.md)
+* JavaScript and HTML
+* Interactive JavaScript
+* Functions
+* Algorithms
+* Conditional Execution
