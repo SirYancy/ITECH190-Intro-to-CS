@@ -12,7 +12,8 @@ Remember to refer to the [demo page](http://itech190.erickuha.com) for some exam
 ## Chapter Overview
 
 * [What is JavaScript](javascript.md)
-* JavaScript and HTML
+* [Basic JavaScript](js_basics.md)
+* [Variables](variables.md)
 * Interactive JavaScript
 * Functions
 * Algorithms
