@@ -59,7 +59,7 @@ Let's make a button that actually does something.
 
 For the rest of this section, we will be looking at the basic JavaScript demos found on the demo page: [itech190.erickuha.com](http://itech190.erickuha.com).
 
-### Example 1
+## Example 1
 
 This is the source code:
 
@@ -94,6 +94,92 @@ The *onmouseout* attribute simply re-sets the *src* attribute to 'question-mark.
 **Note -** It is important to pause here and talk about the equal sign. In JavaScript (and the vast majority of other programming languages), the equal sign does not work the same way that it does in algebra. In algebra, it is the symbol which tells us that two things are equal, and it is the important symbol in an equation. For example, in the equation `2x + 1 = 5`, we know that `x = 5` because it's the only number that makes the equation true. However, in programming, the equal sign is not an assertion of equality, it is actually an operator. Specifically, it is the **assignment operator**. We use the assignment operator whenever we want to store some value inside of a container, such as when we want to assign the name of an image file to some container (called a **variable**), like `this.src` in an `<img>` tag. To reiterate, in algebra, the equal sign is an assertion of equality. In JS, the **assignment operator** is an action storing a value in a
 variable. From this point onward, we will always refer to the equal sign symbol as the **assignment operator**. In later sections, we'll talk more about its use.
 
+## Example 2
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mystery Image</title>
+</head>
+<body>
+    <div style="text-align: center;">
+
+        <img src="question-mark.png" alt="Question Mark"
+                onclick="this.src='raccoon.png';"
+                />
+        <p>
+       Click the question mark to reveal the image. 
+        </p>
+    </div>
+</body>
+</html>
+```
+
+In this example, we look at the *onclick* attribute. Like *onmouseover* and *onmouseout*, this attribute can be added to most html elements. Instead of waiting for the mouse pointer to enter the element, however, it waits for the user to click on the element. In this case, when the user clicks on the question mark image, it changes to the raccoon image. Unlike the previous example, it does not change back.
+
+## Example 3
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mystery Image</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <img id="question" src="question-mark.png" />
+        <p>
+        <input type="button" value="Show Image"
+               onclick="document.getElementById('question').src='raccoon.png';" />
+        <input type="button" value="Hide Image"
+               onclick="document.getElementById('question').src='question-mark.png';" />
+        </p>
+    </div>
+</body>
+</html>
+```
+
+In this example, the main difference is that we are using two buttons to swap out the image. Clicking the "Show Image" button causes the image to switch to the raccoon. Clicking the "Hide Image" button changes it back to the question mark. Make sure you understand how this one works before looking at the final example.
+
+## Example 4
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mystery Image</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h2>Image Swapper</h2>
+        <p>
+        <img id="leftImg" src="autobot.png" />
+        <img id="rightImg" src="decepticon.png" />
+        </p>
+        <input type="button" value="Swap Images"
+               onclick="
+                  saved=document.getElementById('leftImg').src;
+                  document.getElementById('leftImg').src=document.getElementById('rightImg').src;
+                  document.getElementById('rightImg').src=saved;
+               "/>
+
+</body>
+</html>
+```
+
+In this final example, the page starts with two images and a button. Notice the *id* attributes for both images. Descriptive and quick to type is the important feature here. This is so that we can grab one image or the other, depending on what we want to accomplish.
+
+The button has an *onclick* attribute with three lines of JS code. The first line does not change any of the images. All it does is grab the *src* attribute from the "leftImg" and store it in a new container called `saved`. We do this exactly as we did in the other examples, by using the assignment operator. JS can create new containers on the fly by simply defining a name (in this case, "saved") and then using the assignment operator (=) to store something in it.
+
+We have to do this because we are going to overwrite the 'leftImg' *src* attribute with the *src* attribute of 'rightImg' in the next line of code. Finally, in the final line, we assign the value of `saved` to the *src* attribute of the 'rightImg' element.
+
+Click the button a few times. Try to visualize what is happening behind the scenes when you do. We are taking the left image, storing it in a temporary location, replacing it with the right image, and then finally replacing the right image by the contents of the temporary location.
+
+The `saved` object in this example is called a **variable**. In the next section, we will look at variables in a bit more detail.
 
 <!-- Images -->
 [2]: images/2.png
