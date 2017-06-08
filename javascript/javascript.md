@@ -33,9 +33,22 @@ You need two pieces of software to write JS programs. You need a text editor and
 * [Atom](https://atom.io/) - All platforms. Totally free. Highly customizeable. Easy to use. Slightly buggy (it's pretty new on the scene)
 * [Vim](http://www.vim.org/) - All platforms. Steep learning curve. Incredibly powerful. Almost certainly requires a few days of dedication to get the hang of it.
 
+As for web browsers, you're probably using one right now to read this text. There are many pros and cons to each web browser and suffice to say, the author of this text has a tendency to jump back and forth between Chrome, Firefox and Opera.
+
+## Try it out!
+
+You're in your web browser right now, in all likelihood. And every web browser has a built-in JS console.
+
+1. Open a new tab in your browser and point it to [SquareFree](http://www.squarefree.com/shell/shell.html). SquareFree is a simple JS **shell** which allows you to execute JS commands to see what they will do.
+1. Now, press **Ctrl-Shift-J**. The browser's console log should appear. There may be some text already in it, you can igore it.
+1. In the SquareFree shell, type `console.log("Hello World!");` and press **enter**.
+1. Look over in your browser console and you should see it echo "Hello World!" back to you!
+
+Neat, huh? Now, in most browsers, the JS console actually has its own prompt, but in some browsers (Firefox), it's disabled by default and has to be enabled by fiddling with the settings (google can help you here). So, you don't necessarily have to use SquareFree, but it's a nice tool that's easy to use.
+
 ## Write Your First Program
 
-Open up your favorite text editor. Create a file called `hello.html`. Type out the following code. Pay close attention to the syntax.
+Let's turn this into its own standalone program. Open your favorite text editor. Create a file called `hello.html`. Type out the following code. Pay close attention to the syntax.
 
 ```html
 <!DOCTYPE html>
