@@ -14,3 +14,5 @@
   * [Styles](html/style.md)
 * [JavaScript](javascript/introduction.md)
   * [What is JavaScript](javascript/javascript.md)
+  * [Basic JavaScript](javascript/js_basics.md)
+  * [Variables](javascript/variables.md)
