@@ -14,7 +14,3 @@ Remember to refer to the [demo page](http://itech190.erickuha.com) for some exam
 * [What is JavaScript](javascript.md)
 * [Basic JavaScript](js_basics.md)
 * [Variables](variables.md)
-* Interactive JavaScript
-* Functions
-* Algorithms
-* Conditional Execution
