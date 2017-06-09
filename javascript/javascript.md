@@ -79,5 +79,7 @@ To close this section, try a few different variations on our "Hello World!" prog
 * `alert("1" + "2" + "3" + "4" + "5");`
 * `confirm("Do you wish to continue?");`
 
+Observe what these lines of code do carefully. Can you work out why they behave the way they do?
+
 <!-- images -->
 [1]: images/1.png

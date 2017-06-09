@@ -35,7 +35,11 @@ In this case, we are selecting `document.body.style.background`. Notice that eac
 
 After the element selection, we use an equal sign (=) and, in quotation marks, the name of a color, in this case, "DarkRed". And then, we terminate the line with a semicolon (;). And that's it. A script that changes the background color of the web page.
 
-It's probably a good idea to mention that this is actually a pretty heavy-weight way of changing the background color. JS takes up a fair bit more proccessor overhead (not that you're likely to notice it in this case) than simply using an HTML style or CSS. However, there are many times that you might want to do this dynamically in JS as opposed to statically in HTML/CSS, but for now, it's enough to know that it can be done. **Note:** you can try this example with any of the [140 predefined HTML color names](https://www.w3schools.com/colors/colors_names.asp).
+It's probably a good idea to mention that this is actually a pretty heavy-weight way of changing the background color. JS takes up a fair bit more proccessor overhead (not that you're likely to notice it in this case) than simply using an HTML style or CSS. However, there are many times that you might want to do this dynamically in JS as opposed to statically in HTML/CSS, but for now, it's enough to know that it can be done. 
+
+<div class="alert alert-info">
+<strong>Note:</strong> you can try this example with any of the <a href="https://www.w3schools.com/colors/colors_names.asp">140 predefined HTML color names T</a>.
+</div>
 
 ## The `<input>` Element
 
@@ -59,7 +63,7 @@ Let's make a button that actually does something.
 
 For the rest of this section, we will be looking at the basic JavaScript demos found on the demo page: [itech190.erickuha.com](http://itech190.erickuha.com).
 
-## Example 1
+### Example 1
 
 This is the source code:
 
@@ -91,10 +95,9 @@ In *onmouseover* we assign the line of JS code: `this.src='raccoon.png;`. Notice
 
 The *onmouseout* attribute simply re-sets the *src* attribute to 'question-mark.png'. The code is nearly identical.
 
-**Note -** It is important to pause here and talk about the equal sign. In JavaScript (and the vast majority of other programming languages), the equal sign does not work the same way that it does in algebra. In algebra, it is the symbol which tells us that two things are equal, and it is the important symbol in an equation. For example, in the equation `2x + 1 = 5`, we know that `x = 5` because it's the only number that makes the equation true. However, in programming, the equal sign is not an assertion of equality, it is actually an operator. Specifically, it is the **assignment operator**. We use the assignment operator whenever we want to store some value inside of a container, such as when we want to assign the name of an image file to some container (called a **variable**), like `this.src` in an `<img>` tag. To reiterate, in algebra, the equal sign is an assertion of equality. In JS, the **assignment operator** is an action storing a value in a
-variable. From this point onward, we will always refer to the equal sign symbol as the **assignment operator**. In later sections, we'll talk more about its use.
+It is important to pause here and talk about the equal sign. In JavaScript (and the vast majority of other programming languages), the equal sign does not work the same way that it does in algebra. In algebra, it is the symbol which tells us that two things are equal, and it is the important symbol in an equation. For example, in the equation `2x + 1 = 5`, we know that `x = 5` because it's the only number that makes the equation true. However, in programming, the equal sign is not an assertion of equality, it is actually an operator. Specifically, it is the **assignment operator**. We use the assignment operator whenever we want to store some value inside of a container, such as when we want to assign the name of an image file to some container (called a **variable**), like `this.src` in an `<img>` tag. To reiterate, in algebra, the equal sign is an assertion of equality. In JS, the **assignment operator** is an action storing a value in a variable. From this point onward, we will always refer to the equal sign symbol as the **assignment operator**. In later sections, we'll talk more about its use.
 
-## Example 2
+### Example 2
 
 ```html
 <!DOCTYPE html>
@@ -119,7 +122,7 @@ variable. From this point onward, we will always refer to the equal sign symbol 
 
 In this example, we look at the *onclick* attribute. Like *onmouseover* and *onmouseout*, this attribute can be added to most html elements. Instead of waiting for the mouse pointer to enter the element, however, it waits for the user to click on the element. In this case, when the user clicks on the question mark image, it changes to the raccoon image. Unlike the previous example, it does not change back.
 
-## Example 3
+### Example 3
 
 ```html
 <!DOCTYPE html>
@@ -144,7 +147,7 @@ In this example, we look at the *onclick* attribute. Like *onmouseover* and *onm
 
 In this example, the main difference is that we are using two buttons to swap out the image. Clicking the "Show Image" button causes the image to switch to the raccoon. Clicking the "Hide Image" button changes it back to the question mark. Make sure you understand how this one works before looking at the final example.
 
-## Example 4
+### Example 4
 
 ```html
 <!DOCTYPE html>
