@@ -145,44 +145,7 @@ In this example, we look at the *onclick* attribute. Like *onmouseover* and *onm
 </html>
 ```
 
-In this example, the main difference is that we are using two buttons to swap out the image. Clicking the "Show Image" button causes the image to switch to the raccoon. Clicking the "Hide Image" button changes it back to the question mark. Make sure you understand how this one works before looking at the final example.
-
-### Example 4
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Mystery Image</title>
-</head>
-<body>
-    <div style="text-align: center;">
-        <h2>Image Swapper</h2>
-        <p>
-        <img id="leftImg" src="autobot.png" />
-        <img id="rightImg" src="decepticon.png" />
-        </p>
-        <input type="button" value="Swap Images"
-               onclick="
-                  saved=document.getElementById('leftImg').src;
-                  document.getElementById('leftImg').src=document.getElementById('rightImg').src;
-                  document.getElementById('rightImg').src=saved;
-               "/>
-
-</body>
-</html>
-```
-
-In this final example, the page starts with two images and a button. Notice the *id* attributes for both images. Descriptive and quick to type is the important feature here. This is so that we can grab one image or the other, depending on what we want to accomplish.
-
-The button has an *onclick* attribute with three lines of JS code. The first line does not change any of the images. All it does is grab the *src* attribute from the "leftImg" and store it in a new container called `saved`. We do this exactly as we did in the other examples, by using the assignment operator. JS can create new containers on the fly by simply defining a name (in this case, "saved") and then using the assignment operator (=) to store something in it.
-
-We have to do this because we are going to overwrite the 'leftImg' *src* attribute with the *src* attribute of 'rightImg' in the next line of code. Finally, in the final line, we assign the value of `saved` to the *src* attribute of the 'rightImg' element.
-
-Click the button a few times. Try to visualize what is happening behind the scenes when you do. We are taking the left image, storing it in a temporary location, replacing it with the right image, and then finally replacing the right image by the contents of the temporary location.
-
-The `saved` object in this example is called a **variable**. In the next section, we will look at variables in a bit more detail.
+In this example, the main difference is that we are using two buttons to swap out the image. Clicking the "Show Image" button causes the image to switch to the raccoon. Clicking the "Hide Image" button changes it back to the question mark.
 
 <!-- Images -->
 [2]: images/2.png

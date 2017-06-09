@@ -36,10 +36,47 @@ This assigns the value to the variable. using [SquareFree](http://www.squarefree
 ![3]
 
 <div class="alert alert-info">
-<strong>Note</strong>I have been omitting the semicolons that terminate each line of code in the shell session. You really only need them when you are writing more than one line of code. In this very specific case, it's okay to leave them out.
+<strong>Note:</strong> I have been omitting the semicolons that terminate each line of code in the shell session. You really only need them when you are writing more than one line of code. In this very specific case, it's okay to leave them out.
 </div>
 
+Let's look at an example.
 
+## Example 1 - Picture Swapper
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mystery Image</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h2>Image Swapper</h2>
+        <p>
+        <img id="leftImg" src="autobot.png" />
+        <img id="rightImg" src="decepticon.png" />
+        </p>
+        <input type="button" value="Swap Images"
+               onclick="
+                  saved=document.getElementById('leftImg').src;
+                  document.getElementById('leftImg').src=document.getElementById('rightImg').src;
+                  document.getElementById('rightImg').src=saved;
+               "/>
+
+</body>
+</html>
+```
+
+In order to swap the two images, you need a third location to stash one of the images while you move the other image into its place. Imagine you have two playing cards in front of you. You want to swap their locations. You move the one on the right out of the way, slide the one on th left into its place, and then slide the one on the right into the left slot. This is analagous to what we are doing here.
+
+The page starts with two images and a button. Notice the *id* attributes for both images. They are both descriptive and quick to type and, most importantly, *different*. These are basically handles which allow us to grab one image and manipulate it and only it.
+
+The button has an *onclick* attribute with three lines of JS code. The first line does not change any of the images. All it does is grab the *src* attribute from the "leftImg" and store it in a new variable called `saved`. We do this exactly as we did in previous examples, by using the assignment operator. Note that the assignment operator always takes the value on the right and stores it in the value on the left.
+
+We have to do this because we are going to overwrite the 'leftImg' *src* attribute with the *src* attribute of 'rightImg' in the next line of code. Finally, in the final line, we assign the value of `saved` to the *src* attribute of the 'rightImg' element.
+
+Click the button a few times. Try to visualize what is happening behind the scenes when you do. We are taking the left image, storing it in a temporary location, replacing it with the right image, and then finally replacing the right image by the contents of the temporary location.
 
 <!-- Images -->
 [3]: images/3.png
