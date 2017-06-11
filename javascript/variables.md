@@ -78,5 +78,29 @@ We have to do this because we are going to overwrite the 'leftImg' *src* attribu
 
 Click the button a few times. Try to visualize what is happening behind the scenes when you do. We are taking the left image, storing it in a temporary location, replacing it with the right image, and then finally replacing the right image by the contents of the temporary location.
 
+## Variables in Action
+
+Variables are a fundamental tool in any programmer's toolbox that you will eventually be using them without a second thought. For now, practice with variables a little bit and see how they behave. Try the following in a JS shell like squarefree and observe their output.
+
+You should, by this point, be able to pretty accurately predict the output of each of these commands. But try them anyway and if anything does not output as you expect, try to figure out why.
+
+```javascript
+a = 7;
+b = 6;
+c = a + b;
+console.log(c);
+
+firstWord = "Hello ";
+secondWord = "World!";
+sentence = firstWord + secondWord;
+console.log(sentence);
+
+console.log(c + sentence);
+console.log(sentence + c);
+
+```
+
+In the next section, we will look at interactivity in JavaScript.
+
 <!-- Images -->
 [3]: images/3.png
