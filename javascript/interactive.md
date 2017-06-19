@@ -43,7 +43,7 @@ The page has an empty pair of div tags with the id "output". So, the button's **
 
 Lastly, look at the string that we're assigning to the tags: `<p>Do <em>not</em> click it again.</p>`. This is just a little bit of HTML, a `<p>` tag with a little formatting in the middle. It is important to remember that JS doesn't recognize any of this as HTML. It just sees a string of text. It isn't until it's inserted into the `<div>` element and then parsed by the web browser that it is interpreted as HTML. To re-iterate, as far as JS is concerned, it's just a string of characters and nothing more. This is actually a very useful and powerful feature, but it does require some attention to detail to get it right as we shall see in subsequent examples.
 
-## Example 2: 
+## Example 2: Welcome Page
 
 ```html
 <!DOCTYPE html>
@@ -69,10 +69,12 @@ Lastly, look at the string that we're assigning to the tags: `<p>Do <em>not</em>
 
 In this simple example, the *onclick* attribute again contains only a single line of JS script that takes the contents of a text box and inserts whatever it finds there into a string of text that again is outputted to a div at the bottom of the page.
 
-In this example, pay attention to the way the addition operator (+) is used to combine strings. This is called *concatenation*. Look very carefully about how this concatenation is used to define a `<p>` tag and where the period is used to end a sentence. These are little details that are often overlooked by new programmers but soon become second nature.
+Pay attention to the way the addition operator (+) is used to combine strings. This is called *concatenation*. Look very carefully about how this concatenation is used to define a `<p>` tag and where the period is used to end a sentence. These are little details that are often overlooked by new programmers but soon become second nature.
+
+## Example 3: Event Scheduler
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Form Demonstration</title>
@@ -114,11 +116,12 @@ The most daunting part of this example isn't what it does, but rather some of th
 
 First, there are three inputs, all with unique **id** attributes. Note that the first two are **type** text and the last one has **type** date. This works basically like a textbox except that it informs the web browser to create a date-picker widget for convenience.
 
-in the button's **onclick** attribute, the code is broken into several lines and is formatted for easier reading. The first three lines of code grab the values from the first three inputs and store them in variables for later use. The variable names can be anything, but it's good practice to use variable names that mean something.  The last line of code is actually fairly straightforward, but might take a couple of minutes of study to see everything that's going on. First, it's assigning some content to the **innerHTML** attribute of our "output" div. The string that it's inserting is concatenated from several sub-strings. Looking carefully at this code, we can see the the string is constructed into a bit of HTML code using the variables that were captured from the input boxes.
+In the button's **onclick** attribute, the code is broken into several lines and is formatted for easier reading. The first three lines of code grab the values from the first three inputs and store them in variables for later use. The variable names can be anything, but it's good practice to use variable names that mean something.  The last line of code is actually fairly straightforward, but might take a couple of minutes of study to see everything that's going on. First, it's assigning some content to the **innerHTML** attribute of our "output" div. The string that it's inserting is concatenated from several sub-strings. Looking carefully at this code, we can see the the string is constructed into a bit of HTML code using the variables that were captured from the input boxes.
 
 Assuming the name "Fred", the activity "birthday", and the date "2017-6-10", the string constructed would look like this:
 
-`'<p>Hello, Fred,</p> <p>I am really excited to attend your birthday on 2017-6-10. It sounds like fun!</p><br /><p style='text-align:right'>Regards,<br>Eric</p>'`
+`'<p>Hello, Fred,</p> <p>I am really excited to attend your birthday on 2017-6-10.'
+'It sounds like fun!</p><br /><p style='text-align:right'>Regards,<br>Eric</p>'`
 
 Formatted for easier reading, it would look like this:
 
