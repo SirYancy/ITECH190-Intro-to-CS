@@ -16,3 +16,5 @@
   * [What is JavaScript](javascript/javascript.md)
   * [Basic JavaScript](javascript/js_basics.md)
   * [Variables](javascript/variables.md)
+  * [Interactivity and JavaScript](javascript/interactive.md)
+  * [More Interactivity](javascript/interactive2.md)
