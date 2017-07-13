@@ -136,6 +136,6 @@ Formatted for easier reading, it would look like this:
 </p>'
 ```
 
-Sometimes, when you want to construct a complex string like this, it's better to start with the end product and work backwards to get to the JS code that will produce it. **Also,** note that in the code, there are some backslashes (\) in the last line of code that are not there once it's converted to HTML. These are called **escape sequences** **escapes**. Since the single quote right after the `<p style=` needs to be there for the HTML code, but would be interpreted by JS as the end of a string, JS uses the backslash to "escape" it, letting JS know that those single quotes are part of the string.
+Sometimes, when you want to construct a complex string like this, it's better to start with the end product and work backwards to get to the JS code that will produce it. **Also,** note that in the code, there are some backslashes (\) in the last line of code that are not there once it's converted to HTML. These are called **escape sequences** or simply **escapes**. Since the single quote right after the `<p style=` needs to be there for the HTML code, but would be interpreted by JS as the end of a string, JS uses the backslash to "escape" it, letting JS know that those single quotes are part of the string.
 
 In the next section, we will expand on user interaction in JS and HTML.
