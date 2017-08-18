@@ -100,7 +100,7 @@ console.log(sentence + c);
 
 ```
 
-In the next section, we will look at interactivity in JavaScript.
+In the next section, we will look at simple ways your programs can interact with their users.
 
 <!-- Images -->
 [3]: images/3.png
