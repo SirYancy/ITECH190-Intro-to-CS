@@ -103,6 +103,38 @@ Neat, huh? Make sure you have a reasonable handle on what's going on here and th
 
 ## Tip Calculator 2
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tip Calculator 2</title>
+</head>
+<body>
+    <h2>Tip Calculator 2</h2>
+    <p>
+    Enter the amount: $<input id="amountBox" size="10" type="text" />
+    <br>
+    Tip Percentage: <input id="percentBox" size="10" type="text" />%
+    </p>
+    <input type="button" value="Calculate Tip"
+        onclick="
+        amount = parseFloat(document.getElementById('amountBox').value);
+        percent = parseFloat(document.getElementById('percentBox').value);
+        tip = amount * (percent/100);
+        document.getElementById('outputDiv').innerHTML = 
+                         '<p>You should tip $' + tip + '</p>';
+        "/>
+    <hr />
+    <div id="outputDiv"></div>
+</body>
+</html>
+```
+This version of the tip calculator should be quite simple to follow if you understood how the first one worked. The only real difference here is that we now have two input text boxes. In the `onclick` attribute, we have to grab the values of both elements, and then when we calculate the tip, we simply used the variable **percent** instead of the static 15. Note that here the reason for dividing our percent by 100 becomes clear. We can take the percentage and convert it into a decimal for making the calculation. Try to duplicate the code. A working version can be found on the [example page](http://itech190.erickuha.com/interactive_js/tip2.html).
+
+## Coming up...
+
+In the next section, we're going to look at how we can make re-usable code in our introduction to functions.
 
 
 <!-- images -->

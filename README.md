@@ -5,6 +5,6 @@
 
 This is a companion text for ITECH 190 at Leech Lake Tribal College. If you are not my student, you are free to read on. Note, however, that this text is a work in progress. 
 
-This class is designed as an overview of Computer Science as a discipline. It covers algorithmic problem solving using the text [Crossing the River With Dogs] and basic programming skills using JavaScript.
+This class is designed as an overview of Computer Science as a discipline. It covers algorithmic problem solving using the text [Crossing the River With Dogs](http://www.wiley.com/WileyCDA/WileyTitle/productCd-EHEP002003.html) and basic programming skills using JavaScript.
 
 
