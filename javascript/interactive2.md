@@ -35,7 +35,7 @@ That said, there is one other reason that ints are often preferable to floats. F
 
 ![4][4]
 
-<span class="alert alert-info">In JavaScript (as with almost all other programming languages) the * character is the operator for multiplication. Mathematical operators will be discussed in more detail later in this section
+<span class="alert alert-info">In JavaScript (as with almost all other programming languages) the * character is the operator for multiplication. Mathematical operators will be discussed in more detail later in this section</span>
 
 Notice anything weird? What is the product of 0.1 and 0.2? The answer should be, neatly, 0.02. But that's not the output of the multiplication in JS. And yet, the JS shell session outputs the very strange product `0.020000000000000004`. There are complicated reasons for why this is, but it all stems from the fact that at their core, all numbers are still binary and because of the way that floating point numbers are represented in binary leads to these strange little rounding errors.
 
