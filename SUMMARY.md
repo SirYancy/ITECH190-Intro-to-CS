@@ -18,3 +18,4 @@
   * [Variables](javascript/variables.md)
   * [Interactivity and JavaScript](javascript/interactive.md)
   * [More Interactivity](javascript/interactive2.md)
+  * [Functions](javascript/functions.md)
