@@ -130,7 +130,7 @@ Neat, huh? Make sure you have a reasonable handle on what's going on here and th
 </body>
 </html>
 ```
-This version of the tip calculator should be quite simple to follow if you understood how the first one worked. The only real difference here is that we now have two input text boxes. In the `onclick` attribute, we have to grab the values of both elements, and then when we calculate the tip, we simply used the variable **percent** instead of the static 15. Note that here the reason for dividing our percent by 100 becomes clear. We can take the percentage and convert it into a decimal for making the calculation. Try to duplicate the code. A working version can be found on the [example page](http://itech190.erickuha.com).
+This version of the tip calculator should be quite simple to follow if you understood how the first one worked. The only real difference here is that we now have two input text boxes. In the `onclick` attribute, we have to grab the values of both elements, and then when we calculate the tip, we simply used the variable **percent** instead of the static 15. Note that here the reason for dividing our percent by 100 becomes clear. We can take the percentage and convert it into a decimal for making the calculation. Try to duplicate the code. A working version can be found on the [example page](http://itech190.erickuha.com/interactive_js/tip2.html).
 
 ## Coming up...
 
