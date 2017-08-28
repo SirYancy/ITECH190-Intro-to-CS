@@ -33,7 +33,7 @@ So, when you add two ints like `sum = 5 + 10;`, even if you don't notice it, it 
 
 That said, there is one other reason that ints are often preferable to floats. Floats are inaccurate. Look at this javascript shell session:
 
-[4]!
+![4][4]
 
 <span class="alert alert-info">In JavaScript (as with almost all other programming languages) the * character is the operator for multiplication. Mathematical operators will be discussed in more detail later in this section
 
@@ -89,7 +89,7 @@ Here's the code for a simple tip web page that calculates a 15% tip on a bill:
 
 You can play with a working version of this web page on the demo page. Click [here](http://itech190.erickuha.com/interactive_js/tip.html).
 
-[5]!
+![5][5]
 
 The program is quite simple upon a close inspection. Let's go through it. The page is a basic structure. The first `<p>` tag pair contains our main input, namely a textbox with the id "amountBox". The business, as usual, happens in the **onclick** attribute of the button. There are a couple of new things happening here.
 
