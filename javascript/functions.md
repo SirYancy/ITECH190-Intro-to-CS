@@ -23,6 +23,26 @@ You've actually already called some functions. In the tip calculator, you called
 
 Another function you've used a fair bit is `getElementById()`. This one is a little different because it has to be called *on* a document using what's often called **dot notation**. This is because the document is defined as the entire document that this javascript is being run in. Each element is *part* of that document and, if you happened to code in an **id** for an element, the `document.getElementById()` function can return that element to the program by feeding it the **id** that we're looking for. Thus, `document.getElementById('outputDiv')` will search through the document looking for an HTML element with the id "outputDiv" and if it finds it, it will return it to the code the called it.
 
+## So What exactly _is_ a function?
+
+A function is a named bit of code that you can use over and over. Functions have a couple of important features:
+
+* **It's a black box** - A function's actual implementation (how the code is written) does not need to be known to the programmer to call it. In essence, it's a black box with an input and an output. Exactly what goes on inside that box doesn't matter as long as I know that the function works.
+* **Same input -> Same output** - With a few notable exceptions (like random number generators), if you call a function with a certain input, should _always_ return the same output. If a function is supposed to add two numbers together and I feed it a 4 and a 5, it had better return 9 every time or else there's something wrong with the function.
+
+## Whare they good for?
+
+There are lots of reasons to write functions, but they can be distilled in a few essential ones:
+
+1. They help us break a programming problem up into a series of discrete steps. Functions help us conceptualize our program as consisting of smaller sub-problems which makes the overall picture of the program easier to see.
+1. Functions allow us to re-use code instead of rewriting it.
+1. Functions give us the ability to test small parts of our programs in isolation from the rest of the program.
+1. Functions allow us to control _scope_ and _encapsulation_. What this means is, we can create variables locally, within a function without them polluting the rest of our program. If I write a function where I want to add up all of the numbers in a list, I might create a variable to keep track of a running tally as I add each number. I only need this running tally number for the duration of that operation, after which, it can be tossed aside. By keeping it isolated in the function, the variable will be released after the function is finished and free up system resources.
+
+We will elaborate and clarify some of these concepts throughout this section, but it is important to get some experience seeing these principles in action first.
+
+## Functions in JavaScript
+
 One important note about functions is that they *always* have trailing parentheses. These are for input. Whatever you want to pass to the function goes in here. If the function takes more than one **argument**, they will be separated by commas.
 
 ```javascript
